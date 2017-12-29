@@ -1,0 +1,14 @@
+group 'me.dawars'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.processing', name: 'core', version: '3.3.6'
+}
